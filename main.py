@@ -1,9 +1,10 @@
+import argparse
 import os
 import urllib.parse
-import requests
-import argparse
 
+import requests
 from dotenv import load_dotenv
+
 
 def is_bitlink(bitlink, bitly_token):
     headers = {"Authorization": f'Bearer {bitly_token}'}
