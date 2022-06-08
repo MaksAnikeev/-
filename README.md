@@ -48,10 +48,10 @@ Then use `pip` to install dependencies:
 ```
 pip install -r requirements.txt
 ```
-To start the project, you need to register on the Bitly service.
-Generating your token in the API section on the Bitly service (Generate token).
-Create .env file in the root directory.
-Write in this file your token.
+- To start the project, you need to register on the Bitly service.
+- Generating your token in the API section on the Bitly service (Generate token).
+- Create .env file in the root directory.
+- Write in this file your token.
 ``` 
 BITLY_TOKEN = '......'
 ```
